@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar .sticky {
+    padding: 30px 0;
+    background: lightseagreen
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: lightseagreen;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: lightseagreen;
+}
+
+.menu-btn {
+    color: rgb(207, 9, 9);
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    background: url(farmer1.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: black;
+    font-weight: 500;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: rgb(240, 250, 249);
+    color: black;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(240, 250, 249);
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover {
+    color: crimson;
+    background: none;
+
+
+}
+
+/* scheme section styling*/
+section {
+    padding: 150px 0;
+}
+
+.scheme .skill.click .contact {
+    font-family: 'Poppins', sans-serif;
+}
+
+.scheme .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.scheme .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.scheme .title::after {
+
+
+    content: "10 Scheme";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.scheme .scheme-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.scheme .scheme-content .left img {
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.scheme .scheme-content .right {
+    width: 100%;
+}
+
+.scheme .scheme-content .right .text {
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+
+.scheme .scheme-content .right .text span {
+    color: purple;
+}
+
+.scheme .scheme-content .right p {
+    text-align: justify;
+}
+
+.scheme .scheme-content a {
+
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.scheme .scheme-content a:hover {
+    color: crimson;
+    background: none;
+}
+
+.column .text{
+    padding: 10px;
+}
+
+
+
+/*skill section*/
+.skill {
+    color: #fff;
+    background: black;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.skill {
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.skill .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.skill .title::after {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.skill .skill-content a {
+    display: inline-block;
+    background: crimson;
+    color: rgb(233, 208, 208);
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.skill .skill-content a:hover {
+    color: crimson;
+    background: none;
+}
+
+/* click section */
+
+.click {
+    color: #fff;
+    background: rgb(63, 157, 211);
+}
+
+section {
+    padding: 100px 0;
+}
+
+.click {
+    font-family: 'Poppins', sans-serif;
+}
+
+.click .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.click .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.click .title::after {
+
+
+    content: "what i made";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: rgb(89, 170, 236);
+    transform: translateX(-50%);
+}
+
+.click .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.click .title .card {
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+
+}
+
+.click .title .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 15%;
+    border: 5px solid crimson;
+
+}
+
+/*contact*/
+section {
+    padding: 100px 0;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.contact .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.contact .title::after {
+
+    content: "get in touch";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p {
+    text-align: justify;
+
+}
+
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: crimson;
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: #333;
+
+}
+
+.contact .text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact .right form .fields {
+    display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+
+}
+
+.contact .right form .name {
+    margin-right: 10px;
+}
+
+.contact .right form .email {
+    margin-left: 10px;
+}
+
+.contact .right form .field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.contact .container{
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact .container .form-group{
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 35px;
+}
+
+.accordion{
+    margin: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*responsive media quary*/
+@media (max-width: 991px) {
+    .max-width {
+
+        padding: 0 50px;
+
+    }
+
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+}
+
+.scheme {
+    font-family: 'Poppins', sans-serif;
+}
+
+.scheme .title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.scheme .scheme-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
